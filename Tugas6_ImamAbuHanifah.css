@@ -1,0 +1,49 @@
+body{ /* Membuat style pada badan web page dari html */
+	background: #F2F2F2; /* Membuat warna pada bg web page dari html dengan pilihan warna putih */
+	font-family: 'sans' ; /* Membuat style huruf pada web page dari html dengan pilihan style 'sans' */
+}
+
+.kalkulator{ /*Membuat form 'kalkulator' dan Mengatur pada form/variabel kalkulaor dari web page html */
+	width: 335px; /* Mengatur ukuran lebar form kalkulator pada web page dari html */
+	background: #001422; /* Mengatur warna form kalkulator dengan pilihan warna #001422 pada web page dari html */
+	margin: 100px auto; /* Mengatur ukuran margin form kalkulator pada web page dari html */
+	padding: 10px 20px 50px 20px; /* Membuat ruang antar form dan border Kalkulator dan Mengatur ukurannya pada web page dari html */
+	border-radius: 5px; /* Mengatur radius border form kalkulator pada web page dari html */
+	box-shadow: 0px 10px 20px 0px #D1D1D1; /* Mengatur ukuran bayangan form kalkulator dengan warna putih pada web page dari html */
+}
+
+.bil{ /*Membuat box inputan pada form kalkulator dari web page html */
+	width: 300px; /* Mengatur ukuran lebar box inputan pada form kalkulator di web page dari html */
+	margin: 5px; /* Mengatur ukuran margin box inputan pada form kalkulator di web page dari html */
+	border: none; /* Mengatur borde box inputan pada form kalkulator menjadi kosong di web page dari html */
+	font-size: 16pt; /* Mengatur ukuran text box inputan pada form kalkulator di web page dari html */
+	border-radius: 5px; /* Mengatur radius border box inputan pada form kalkulator di web page dari html */
+	padding: 10px;	 /* Mengatur ukuran ruang antar box inputan pada form kalkulator di web page dari html */
+}
+
+.opt{ /*Membuat opsi pada pemilihin operator yang digunakan pada form kalkulator dari web page html */
+	font-size: 16pt; /* Mengatur ukuran font operator pada form kalkulator di web page dari html */
+	border: none; /* Mengatur border box operator pada form kalkulator menjadi kosong di web page dari html */
+	width: 215px;/* Mengatur ukuran lebar box operator pada form kalkulator di web page dari html */
+	margin: 5px; /* Mengatur ukuran margin box operator pada form kalkulator di web page dari html */
+	border-radius: 5px; /* Mengatur radius border box operator pada form kalkulator di web page dari html */
+	padding: 10px; /* Mengatur ukuran ruang antar box operator pada form kalkulator di web page dari html */
+}
+
+.tombol{ /*Membuat sebuah tombol 'hitung' pada form kalkulator dari web page html */
+	background: #EC5159; /* Mengatur warna pada bg tombol dari web page html dengan pilihan warna merah */
+	border-top: none; /* Mengatur border atas tombol pada form kalkulator menjadi kosong di web page dari html */
+	border-right: none; /* Mengatur border kanan tombol pada form kalkulator menjadi kosong di web page dari html */
+	border-left: none; /* Mengatur border kiri tombol pada form kalkulator menjadi kosong di web page dari html */
+	border-radius: 5px; /* Mengatur radius border tombol pada form kalkulator di web page dari html */
+	padding: 10px 20px; /* Mengatur ukuran ruang antar tombol pada form kalkulator di web page dari html */
+	color: #eee; /* Mengatur warna pada tombol dari web page html dengan pilihan warna putih */
+	font-size: 15pt; /* Mengatur ukuran font tombol pada form kalkulator di web page dari html */
+	border-bottom:4px solid #BF3D3D; /* Mengatur ukuran border tombol dan mengatur warna border tombol pada form kalkulator di web page dari html */
+}
+
+.judul{ /*Membuat dan mengatur sebuah text judul pada form kalkulator dari web page html */
+	text-align: center; /*Mengatur text-align menjadi rata tengah */
+	color: #eee; /*Mengatur warna text menjadi putih */
+	font-weight: normal; /*Mengatur ketebalan text menjadi normal */
+}
